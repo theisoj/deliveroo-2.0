@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "expo-testi",
+    "name": "Deliveroo 2.0",
     "slug": "expo-testi",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,20 +14,25 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#ffffff"
+      },
+      "supportsTablet": true,
+      "package": "fi.jesunmaailma.deliverooklooni"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cbde2610-cc53-4537-8410-e62cb5837889"
+      }
     }
   }
 }
